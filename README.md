@@ -63,6 +63,11 @@ The dataset, `AviationData_clean.csv`, contains cleaned aviation incident record
 **Objective:** Analyze the relationship between engine count/type and aviation safety.
 
 **Key Steps:**
+  - Analyzed number of incidents by engine count
+  - Filtered by engine type
+  - Focused on the three engine types with the least number of accidents
+  - Looked at the average number of fatalities for the three engine types.
+
 
 **Key Findings:**
   - Aircraft with two engines have the lowest number of accidents.
@@ -74,7 +79,7 @@ The dataset, `AviationData_clean.csv`, contains cleaned aviation incident record
 ### 3. Amateur Built
 **Objective:** Compare the safety records of amateur-built versus professionally manufactured aircraft.  
 
-- **Key Steps:**
+**Key Steps:**
   - Divide the dataset into amateur and professional categories.
   - Identify the top 5 manufacturers in each category.
   - Analyze and compare average fatalities, serious injuries, and minor injuries.
